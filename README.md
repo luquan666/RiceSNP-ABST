@@ -56,7 +56,7 @@ The required packages are as follows:
 * seaborn==0.10.0
 * amber-automl==0.1.0<br>
 if you don't have CUDA-enabled GPU, or on MacOS, replace tensorflow-gpu=1.15.0 with tensorflow=1.15.0<br>
-建议The Model code在1080ti上运行
+As a prerequisite, please make sure you have Anaconda or Miniconda installed, as we provide the detailed dependencies through a conda environment. Additionally, the model code needs to be run on a 1080 Ti graphics card.
 ## Contact
 
 Please feel free to contact us if you need any help (E-mail: mengyaliu1003@foxmail.com).
