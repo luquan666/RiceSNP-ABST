@@ -54,7 +54,8 @@ The required packages are as follows:
 * h5py==2.10.0 
 * matplotlib==3.5.3
 * seaborn==0.10.0
-* amber-automl==0.1.0
+* amber-automl==0.1.0<br>
+  <br>
 if you don't have CUDA-enabled GPU, or on MacOS, replace tensorflow-gpu=1.15.0 with tensorflow=1.15.0
 ## Contact
 
