@@ -42,6 +42,7 @@ The required packages are as follows:
 * scipy==1.7.3 
 * pandas 
 * scikit-learn
+* Logbook==1.0.0
 
 The Model code has been tested running under Python 3.7.<br>
 The required packages are as follows:
