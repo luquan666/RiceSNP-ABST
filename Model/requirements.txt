@@ -1,0 +1,11 @@
+python==3.7
+tensorflow-gpu=1.15.0 
+keras ==2.2.5
+scikit-learn ==1.0.2
+numpy~=1.18.5 
+h5py~=2.10.0 
+matplotlib ==3.5.3
+seaborn==0.10.0
+amber-automl==0.1.0
+# if you don't have CUDA-enabled GPU, or on MacOS, replace tensorflow-gpu=1.15.0 with tensorflow=1.15.0
+
