@@ -37,9 +37,7 @@ The required packages are as follows:
 * torch==2.4.0 
 * biopython==1.83 
 * einops==0.8.0
-* git clone https://github.com/JinsenLi/deepDNAshape<br>
-  cd deepDNAshape<br>
-  pip install .<br>
+* pip install Feature/deepDNAshape-main<br>
 * gensim==3.8.3  
 * scipy==1.7.3 
 * pandas 
