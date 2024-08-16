@@ -24,7 +24,7 @@ cd ./Feature/data/Independent dataset
 `Feature/Onehot.py`,`Feature/DNA2vec.py`,`Feature/DNABERT.py`,and `Feature/DNAshape.py` are four feature extraction methods. <br>
 `Feature/Feature selection.py` is for feature selection.
 
-## Model training and test
+## Model training and testing
 
 `Model/train.py` is for model training.<br>
 `Model/test.py` is for model testing.
