@@ -10,7 +10,7 @@ model = AutoModel.from_pretrained("zhihan1996/DNABERT-2-117M", trust_remote_code
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
 
-fasta_file = 'data//Benchmark datasets/Rearrange_101nt_dataset.fasta'
+fasta_file = 'data/Benchmark datasets/Rearrange_101nt_dataset.fasta'
 sequences = [str(record.seq) for record in SeqIO.parse(fasta_file, "fasta")]
 
 embedding_mean_path = "DNABERT.csv"
