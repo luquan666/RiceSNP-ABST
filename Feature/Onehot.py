@@ -52,7 +52,7 @@ def process_fasta_file(input_file_path, output_file_path, row_size):
 
 if __name__ == '__main__':
     # Input and output file paths
-    input_file_path = 'data/Rearrange_101nt_dataset.fasta'
+    input_file_path = 'data//Benchmark datasets/Rearrange_101nt_dataset.fasta'
     output_file_path = 'Onehot.csv'
     row_size = 404  # Set the row size for CSV output
 
