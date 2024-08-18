@@ -42,7 +42,7 @@ The required packages are as follows:
 * pandas 
 * scikit-learn
 * Logbook==1.0.0
-*
+* deepDNAshape:
 ```text
 git clone https://github.com/JinsenLi/deepDNAshape
 cd deepDNAshape
