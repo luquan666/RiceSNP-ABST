@@ -37,12 +37,17 @@ The required packages are as follows:
 * torch==2.4.0 
 * biopython==1.83 
 * einops==0.8.0
-* pip install Feature/deepDNAshape-main<br>
 * gensim==3.8.3  
 * scipy==1.7.3 
 * pandas 
 * scikit-learn
 * Logbook==1.0.0
+*
+```text
+git clone https://github.com/JinsenLi/deepDNAshape
+cd deepDNAshape
+pip install .
+```
 
 The Model code has been tested running under Python 3.7.<br>
 The required packages are as follows:
