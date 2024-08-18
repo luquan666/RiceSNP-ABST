@@ -16,7 +16,7 @@ for aa in [1]:
                 formatter_class=argparse.RawTextHelpFormatter)
             parser.add_argument("--feature", dest="feature", default=x)
             parser.add_argument("--seq", dest="seq")
-            parser.add_argument("--file", dest="file", default=rf"data//Benchmark datasets/Rearrange_101nt_dataset.fasta")
+            parser.add_argument("--file", dest="file", default=rf"data/Benchmark datasets/Rearrange_101nt_dataset.fasta")
             parser.add_argument("--layer", default=4, dest="layer", type=int)
             parser.add_argument("--output", dest="output", default=rf"{x}.csv")
             parser.add_argument("--batch_size", dest="batch_size", default=2048, type=int)
