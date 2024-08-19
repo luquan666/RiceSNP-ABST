@@ -29,7 +29,11 @@ cd ./Feature/data/Independent dataset
 `Model/train.py` is for model training.<br>
 `Model/test.py` is for model testing.
 
-## Requirement
+## Setup environment
+# create and activate virtual python environment
+   # For Feature code:
+   conda create -n dna python=3.8
+   conda activate dna
 
 The Feature code has been tested running under Python 3.8.<br>
 The required packages are as follows:
