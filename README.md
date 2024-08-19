@@ -30,10 +30,22 @@ cd ./Feature/data/Independent dataset
 `Model/test.py` is for model testing.
 
 ## Setup environment
-# create and activate virtual python environment
-   # For Feature code:
-   conda create -n dna python=3.8
-   conda activate dna
+### create and activate virtual python environment
+#### For Feature code:<br>
+conda create -n Feature python=3.8<br>
+conda activate Feature<br>
+pip install Featurerequirements.txt<br>
+git clone https://github.com/JinsenLi/deepDNAshape<br>
+cd deepDNAshape<br>
+pip install .
+
+#### For Model code:<br>
+conda create -n Model python=3.8<br>
+conda activate Model<br>
+pip install Modelrequirements.txt
+
+
+
 
 The Feature code has been tested running under Python 3.8.<br>
 The required packages are as follows:
