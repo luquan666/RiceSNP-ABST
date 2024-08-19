@@ -33,18 +33,18 @@ cd ./Feature/data/Independent dataset
 ### create and activate virtual python environment
 #### For Feature code:<br>
 ```shell
-conda create -n Feature python=3.8<br>
-conda activate Feature<br>
-pip install Featurerequirements.txt<br>
-git clone https://github.com/JinsenLi/deepDNAshape<br>
-cd deepDNAshape<br>
+conda create -n Feature python=3.8
+conda activate Feature
+pip install Featurerequirements.txt
+git clone https://github.com/JinsenLi/deepDNAshape
+cd deepDNAshape
 pip install .
 ```
 
 #### For Model code:<br>
 ```shell
-conda create -n Model python=3.8<br>
-conda activate Model<br>
+conda create -n Model python=3.7
+conda activate Model
 pip install Modelrequirements.txt
 ```
 
