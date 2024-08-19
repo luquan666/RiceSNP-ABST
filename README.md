@@ -46,40 +46,11 @@ pip install .
 conda create -n Model python=3.7
 conda activate Model
 pip install Modelrequirements.txt
-```
-
-
-
-The Feature code has been tested running under Python 3.8.<br>
-The required packages are as follows:
-* transformers==4.29.2 
-* torch==2.4.0 
-* biopython==1.83 
-* einops==0.8.0
-* gensim==3.8.3  
-* scipy==1.7.3 
-* pandas 
-* scikit-learn
-* Logbook==1.0.0
-* deepDNAshape:
-```text
-git clone https://github.com/JinsenLi/deepDNAshape
-cd deepDNAshape
-pip install .
-```
-
-The Model code has been tested running under Python 3.7.<br>
-The required packages are as follows:
-* tensorflow-gpu==1.15.0 
-* keras==2.2.5
-* scikit-learn==1.0.2
-* numpy==1.18.5 
-* h5py==2.10.0 
-* matplotlib==3.5.3
-* seaborn==0.10.0
-* amber-automl==0.1.0<br>
-if you don't have CUDA-enabled GPU, or on MacOS, replace tensorflow-gpu=1.15.0 with tensorflow=1.15.0<br>
+#if you don't have CUDA-enabled GPU, or on MacOS, replace tensorflow-gpu=1.15.0 with tensorflow=1.15.0<br>
 As a prerequisite, please make sure you have Anaconda or Miniconda installed, as we provide the detailed dependencies through a conda environment. Additionally, the model code needs to be run on a 1080 Ti graphics card.
+```
+
+
 ## Contact
 
-Please feel free to contact us if you need any help (E-mail: mengyaliu1003@foxmail.com).
+Please feel free to contact us if you need any help (E-mail: quanlu@stu.ahau.edu.cn).
