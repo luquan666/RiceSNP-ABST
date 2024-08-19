@@ -14,7 +14,7 @@ In this paper, a model called RiceSNP-ABST is proposed for predicting ABST-SNPs 
 cd ./Feature/data/Benchmark datasets
 ```
 “Random”, “Common”, and “Rearrange” represent three methods for constructing negative samples，“41_nt” and “101_nt” denote sequence lengths.
-#### Independent dataset.
+#### Independent dataset
 ```shell
 cd ./Feature/data/Independent dataset
 ```
