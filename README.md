@@ -46,8 +46,8 @@ pip install .
 conda create -n Model python=3.7
 conda activate Model
 pip install Modelrequirements.txt
-#if you don't have CUDA-enabled GPU, or on MacOS, replace tensorflow-gpu=1.15.0 with tensorflow=1.15.0<br>
-As a prerequisite, please make sure you have Anaconda or Miniconda installed, as we provide the detailed dependencies through a conda environment. Additionally, the model code needs to be run on a 1080 Ti graphics card.
+#if you don't have CUDA-enabled GPU, or on MacOS, replace tensorflow-gpu=1.15.0 with tensorflow=1.15.0
+#Additionally, the model code needs to be run on a 1080 Ti graphics card.
 ```
 
 
